@@ -1,0 +1,37 @@
+.container{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.filter{
+    width: 500px;
+    height: 100%;
+}
+main{
+    text-align: left;
+    padding: 60px 100px 20px 60px;
+}
+.title{
+    font-size: 28px;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.description{
+    margin: 0;
+    width: 90%;
+}
+.info{
+    margin: 40px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.info__item--desc{
+    margin: 8px 0;
+}
+.info>div{
+    margin: 20px 0;
+}
+.attribution{
+    margin: 60px;
+}
