@@ -21,12 +21,13 @@ body{
     border-radius: 8px;
     overflow-y: hidden;
     margin-top: 80px;
-    background: var(--color-dark-blue)
+    background: var(--color-dark-blue);
+    overflow-x: hidden;
 }
 .filter{
     background-image: linear-gradient(
-        hsl(277, 64%, 61%),
-        hsl(277, 64%, 61%)
+        rgba(170, 92, 219, 0.5),
+        rgba(170, 92, 219, 0.5)
     ),
     url(../images/image-header-mobile.jpg);
     background-position: center;
